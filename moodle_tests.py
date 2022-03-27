@@ -3,7 +3,7 @@ import moodle_methods as methods
 import moodle_locators as locators
 
 
-class MoodlePositiveTestCases(unittest.TestCase):
+class MoodlePositiveTestCases(unittest.TestCase)
 
     @staticmethod # signal to Unittest framework that this is a function inside the class (vs. @classmethod)
     def test_create_new_user(): # test_ in the name is mandatory
